@@ -2,8 +2,10 @@ close all
 clear all %#ok
 clc
 
+% to 15, poss not do35 depending on the time
+
 numOfGroups = 20;
-control = 10; % Control latency
+control = 13; % Control latency
 random = true;
 
 rng('shuffle') % Random seed
