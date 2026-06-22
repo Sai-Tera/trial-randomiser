@@ -4,8 +4,8 @@ clc
 
 % to 15, poss not do35 depending on the time
 
-numOfGroups = 20;
-control = 13; % Control latency
+numOfGroups = 1;
+control = 15; % Control latency
 random = true;
 
 rng('shuffle') % Random seed
